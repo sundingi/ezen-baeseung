@@ -1,0 +1,22 @@
+package git;
+
+import java.util.Scanner;
+
+public class exam {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		double cl[] = {85.6, 79.5, 83.1, 80.0, 78.2, 75.0 };
+
+		int s1 = sc.nextInt();
+		int s2 = sc.nextInt();
+
+		double anser = cl[s1 - 1] + cl[s2 - 1];
+		sc.close();
+
+		System.out.printf("%.1f",anser);
+	}
+
+}
